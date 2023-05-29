@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "420044780495",
+    "project_id": "tornado-app-a4bc6",
+    "storage_bucket": "tornado-app-a4bc6.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:420044780495:android:2514cfc6c8abbca49058ba",
+        "android_client_info": {
+          "package_name": "app.paybills.vip"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "420044780495-nlao6tphpjqj3uaaajo1ramk7n08e2ip.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+            "current_key": "AIzaSyDBrzr8-qBtzDtgT8My0dwVvptQbC95eE8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "420044780495-nlao6tphpjqj3uaaajo1ramk7n08e2ip.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

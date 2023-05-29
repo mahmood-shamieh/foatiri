@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<network-security-config>
+    <domain-config>
+        <domain includeSubdomains="true">dam.fawatiri.sy</domain>
+        <pin-set expiration="2018-01-01">
+            <pin digest="SHA-256">00b299b57895dedcc946b7704df7d855b5875cc7aead2ca4b8de088486c6e0e3</pin>
+        </pin-set>
+    </domain-config>
+    <debug-overrides>
+        <trust-anchors>
+            <certificates src="@raw/debug_cas" />
+        </trust-anchors>
+    </debug-overrides>
+    <domain-config cleartextTraffiPermitted="false">
+        <domain includeSubdomains="true">dam.fawatiri.sy</domain>
+    </domain-config>
+</network-security-config>
